@@ -3,7 +3,8 @@ import java.util.Arrays;
 public class FECpacket
 {
     int FEC_group;       // FEC-Gruppengröße
-     
+    int max=0;
+    int size=15000;
     byte[][] mediastack; // Puffer für Medienpakete
     byte[][] fecstack;   // Puffer für FEC-Pakete 
     
